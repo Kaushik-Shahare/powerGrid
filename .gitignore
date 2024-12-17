@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+.env/
+.env.*.local
+
+# Environment variables
+*.env
+*.env.local
+config.json
+
+# Flask instance folder
+instance/
+
+# Log files
+*.log
+logs/
+debug.log
+
+# Cache
+.cache/
+*.sqlite3
+db.sqlite3
+
+# Test coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.iml
+*.sw?
+*.sublime-project
+*.sublime-workspace
+
+# macOS system files
+.DS_Store
+
+# Pip dependency file
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Wheel files
+*.whl
+
+# Sphinx documentation
+docs/_build/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# MyPy
+.mypy_cache/
+
+# Local development files
+*.local
+*.tmp
